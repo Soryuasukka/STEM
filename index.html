@@ -51,27 +51,20 @@
         <ul>
           <li><a href="#hero" class="active">课程简介</a></li>
           <li><a href="#about">学生背景</a></li>
-          <li><a href="#menu">情境引入</a></li>
-          <li><a href="#book-a-table">任务介绍</a></li>
-          <li><a href="#chefs">教学过程</a></li>
+          <li><a href="#chefs">情境引入</a></li>
+          <li><a href="#menu">任务介绍</a></li>
+          <li><a href="#testimonials">教学过程</a></li>
           <li><a href="#events">教学资料</a></li>
-          <li class="dropdown"><a href="#"><span>评价方式</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown">
+            <a href="#"><span>评价方式</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="assets/files/古钱币评价.docx" target="_blank">📘 评价量表1</a></li>
+              <li><a href="assets/files/古钱币评价.pdf" target="_blank">📙 评价量表2</a></li>
+              <li><a href="{{ asset('docs/feedback1.docx') }}" target="_blank">📝 反馈模板</a></li>
+              <li><a href="{{ asset('docs/rubric.xlsx') }}" target="_blank">📊 评分表</a></li>
             </ul>
           </li>
+
           <li><a href="#contact">课程总结</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -192,7 +185,7 @@
           </div>
         </div>
 
-        <div class="row mt-5 pt-4 features-section">
+        <!-- <div class="row mt-5 pt-4 features-section">
           <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
             <div class="feature-box">
               <div class="feature-icon">
@@ -258,11 +251,125 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
 
     </section><!-- /About Section -->
+
+    <section id="chefs" class="chefs section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Chefs</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="chef-highlight" data-aos="fade-right" data-aos-delay="200">
+              <figure class="chef-image">
+                <img src="assets/img/restaurant/chef-1.webp" class="img-fluid" alt="Executive Chef">
+              </figure>
+              <div class="chef-details">
+                <h3>Executive Chef</h3>
+                <h2>Gabriel Turner</h2>
+                <div class="chef-awards">
+                  <span><i class="bi bi-star-fill"></i> James Beard Award</span>
+                  <span><i class="bi bi-star-fill"></i> Two Michelin Stars</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor nisi elit.</p>
+                <div class="chef-signature">
+                  <img src="assets/img/misc/signature-1.webp" alt="Chef Signature">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="team-container" data-aos="fade-left" data-aos-delay="300">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="chef-img">
+                      <img src="assets/img/restaurant/chef-2.webp" class="img-fluid" alt="Chef Portrait">
+                      <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info">
+                      <h4>Sophia Martinez</h4>
+                      <p class="role">Pastry Chef</p>
+                      <p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim purus a ipsum faucibus, et porttitor.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="chef-img">
+                      <img src="assets/img/restaurant/chef-3.webp" class="img-fluid" alt="Chef Portrait">
+                      <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info">
+                      <h4>Marcus Chen</h4>
+                      <p class="role">Sous Chef</p>
+                      <p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim purus a ipsum faucibus, et porttitor.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="chef-img">
+                      <img src="assets/img/restaurant/chef-4.webp" class="img-fluid" alt="Chef Portrait">
+                      <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info">
+                      <h4>Jonathan Williams</h4>
+                      <p class="role">Head of Bar</p>
+                      <p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim purus a ipsum faucibus, et porttitor.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="350">
+                    <div class="chef-img">
+                      <img src="assets/img/restaurant/chef-5.webp" class="img-fluid" alt="Chef Portrait">
+                      <div class="social-links">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                      </div>
+                    </div>
+                    <div class="chef-info">
+                      <h4>Isabella Romano</h4>
+                      <p class="role">Grill Master</p>
+                      <p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim purus a ipsum faucibus, et porttitor.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Chefs Section -->
 
     <!-- Menu Section -->
     <section id="menu" class="menu section">
@@ -388,7 +495,7 @@
         </div>
 
         <!-- Chef's Specials -->
-        <div class="col-12 mt-5" data-aos="fade-up">
+        <!-- <div class="col-12 mt-5" data-aos="fade-up">
           <div class="specials-badge">
             <span><i class="bi bi-award"></i> Chef's Specials</span>
           </div>
@@ -429,7 +536,7 @@
             </div>
           </div>
         </div>
-
+        -->
       </div>
 
     </section><!-- /Menu Section -->
@@ -561,123 +668,8 @@
 
     </section><!-- /Testimonials Section -->
 
-    <!-- Chefs Section -->
-    <section id="chefs" class="chefs section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Chefs</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="chef-highlight" data-aos="fade-right" data-aos-delay="200">
-              <figure class="chef-image">
-                <img src="assets/img/restaurant/chef-1.webp" class="img-fluid" alt="Executive Chef">
-              </figure>
-              <div class="chef-details">
-                <h3>Executive Chef</h3>
-                <h2>Gabriel Turner</h2>
-                <div class="chef-awards">
-                  <span><i class="bi bi-star-fill"></i> James Beard Award</span>
-                  <span><i class="bi bi-star-fill"></i> Two Michelin Stars</span>
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor nisi elit.</p>
-                <div class="chef-signature">
-                  <img src="assets/img/misc/signature-1.webp" alt="Chef Signature">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <div class="team-container" data-aos="fade-left" data-aos-delay="300">
-              <div class="row g-4">
-                <div class="col-md-6">
-                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="chef-img">
-                      <img src="assets/img/restaurant/chef-2.webp" class="img-fluid" alt="Chef Portrait">
-                      <div class="social-links">
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-twitter-x"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                      </div>
-                    </div>
-                    <div class="chef-info">
-                      <h4>Sophia Martinez</h4>
-                      <p class="role">Pastry Chef</p>
-                      <p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim purus a ipsum faucibus, et porttitor.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="250">
-                    <div class="chef-img">
-                      <img src="assets/img/restaurant/chef-3.webp" class="img-fluid" alt="Chef Portrait">
-                      <div class="social-links">
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-twitter-x"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                      </div>
-                    </div>
-                    <div class="chef-info">
-                      <h4>Marcus Chen</h4>
-                      <p class="role">Sous Chef</p>
-                      <p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim purus a ipsum faucibus, et porttitor.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="chef-img">
-                      <img src="assets/img/restaurant/chef-4.webp" class="img-fluid" alt="Chef Portrait">
-                      <div class="social-links">
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-twitter-x"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                      </div>
-                    </div>
-                    <div class="chef-info">
-                      <h4>Jonathan Williams</h4>
-                      <p class="role">Head of Bar</p>
-                      <p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim purus a ipsum faucibus, et porttitor.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <div class="chef-card" data-aos="zoom-in" data-aos-delay="350">
-                    <div class="chef-img">
-                      <img src="assets/img/restaurant/chef-5.webp" class="img-fluid" alt="Chef Portrait">
-                      <div class="social-links">
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-twitter-x"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                      </div>
-                    </div>
-                    <div class="chef-info">
-                      <h4>Isabella Romano</h4>
-                      <p class="role">Grill Master</p>
-                      <p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim purus a ipsum faucibus, et porttitor.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Chefs Section -->
-
     <!-- Book A Table Section -->
-    <section id="book-a-table" class="book-a-table section">
+    <!-- <section id="book-a-table" class="book-a-table section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -784,16 +776,15 @@
 
       </div>
 
-    </section><!-- /Book A Table Section -->
+    </section>--> <!-- /Book A Table Section -->
 
     <!-- Location Section -->
-    <section id="location" class="location section">
+    <!-- <section id="location" class="location section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Location</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -864,7 +855,7 @@
 
       </div>
 
-    </section><!-- /Location Section -->
+    </section>--><!-- /Location Section -->
 
     <!-- Events Section -->
     <section id="events" class="events section">
