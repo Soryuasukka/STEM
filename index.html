@@ -95,7 +95,7 @@
               <div class="btn-group">
                 <a href="#about" class="btn btn-book">START!</a>
                 <!-- 现有按钮 -->
-                <a href="#AIChat" class="btn btn-menu" >ASK YOUR AGENT</a>
+                <a href="#" class="btn btn-menu" >ASK YOUR AGENT</a>
 
               </div>
 
@@ -161,17 +161,17 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="about-content">
               <h3>面向初三学生</h3>
-              <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-              <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risustristique pos uere. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+              <p class="fst-italic">本课程面向初中三年级学生，年龄约15岁，正处于思维从具体向抽象转变的关键阶段。学生具备一定的自主学习和实践探究能力，但面对复杂的跨学科项目时，整体思维深度和系统性尚需提升。</p>
+              <p>学生对文物历史和保护技术的了解较为有限，特别是在化学和物理知识上还处于基础阶段，缺乏实际操作经验。虽然具备一定的计算机基础，能够进行资料查询和成果展示，但在技术应用和智能设备使用方面仍需详细指导。</p>
 
               <div class="chef-signature mt-4">
                 <div class="row align-items-center">
                   <div class="col-auto">
-                    <img src="assets/img/restaurant/chef-1.webp" class="chef-avatar rounded-circle" alt="Chef Portrait">
+                    <img src="assets/img/section2/avatar.png" class="chef-avatar rounded-circle" alt="Chef Portrait">
                   </div>
                   <div class="col">
-                    <p class="chef-message mb-2">"Cooking is a language through which all the following properties may be expressed: harmony, creativity, happiness, beauty, poetry, complexity, magic, humor, provocation and culture."</p>
-                    <p class="chef-name">Executive Chef</p>
+                    <p class="chef-message mb-2">"学生思维活跃，能够在课堂中积极表达观点，具备一定的抽象思维能力。课程设计将通过项目式学习，帮助他们将所学知识与实践结合，激发学习兴趣，提升解决复杂问题的能力。"</p>
+                    <p class="chef-name">学生们的思维</p>
                   </div>
                 </div>
               </div>
@@ -263,8 +263,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Chefs</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>教学情境</h2>
+        <p>昨夜博物馆内发生了一起神秘事件，珍贵的钱币意外生锈，现场未发现人为破坏痕迹。</p>
+        <p>唯一线索是一份残缺的《古币体检报告》，‘古币救援队’的任务是揭开锈蚀之谜，查明原因并制定保护方案。</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -964,44 +965,6 @@
 
       </div>
 
-      <!-- Contact Form Section (Overlapping) -->
-      <div class="container form-container-overlap" id="AIChat">
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-10">
-            <div class="contact-form-wrapper">
-
-              <h2 class="text-center mb-4">Chat with Agent</h2>
-
-              <!-- 聊天消息显示区 -->
-              <div id="chatMessages" class="chat-messages" style="height: 300px; overflow-y: auto; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
-                <!-- 消息会动态插入这里 -->
-              </div>
-
-              <!-- 输入区 -->
-              <form id="chatForm" class="php-email-form">
-                <div class="row g-3">
-                  <div class="col-12">
-                    <div class="form-group">
-                      <div class="input-with-icon">
-                        <i class="bi bi-chat-dots message-icon"></i>
-                        <textarea id="userInput" class="form-control" name="message" placeholder="Type your message here..." style="height: 80px" required></textarea>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <button type="submit" class="btn btn-primary btn-submit">SEND</button>
-                  </div>
-                </div>
-              </form>
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
 
 
 
@@ -1090,7 +1053,9 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.2.0-beta.8/libs/cn/index.js"></script>
   <script src="assets/js/agent-script.js" defer></script>
+
 
 </body>
 
