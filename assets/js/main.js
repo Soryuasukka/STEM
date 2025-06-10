@@ -202,3 +202,11 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+document.addEventListener("DOMContentLoaded", function () {
+  const askButton = document.querySelector('a.btn.btn-menu');
+  askButton.addEventListener("click", function (e) {
+    e.preventDefault(); // 阻止默认跳转
+    alert("点击右下方开始与智能体聊天吧！");
+  });
+});
