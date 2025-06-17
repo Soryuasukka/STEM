@@ -624,7 +624,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: -15px;
   z-index: 99999;
   background-color: var(--accent-color);
@@ -1502,7 +1502,13 @@ section,
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials .testimonial-item {
-  background-color: var(--surface-color);
+  background: linear-gradient(
+      to bottom,
+      var(--surface-color) 0%,
+      var(--surface-color) 30%,
+      #6b6b6b 100%
+    );
+
   box-shadow: 0px 0 20px rgba(0, 0, 0, 0.1);
   box-sizing: content-box;
   padding: 30px;
@@ -2494,7 +2500,7 @@ section,
 
 .contact .form-container-overlap {
   position: relative;
-  margin-top: -150px;
+  margin-top: 150px;
   margin-bottom: 60px;
   z-index: 10;
 }
@@ -2663,3 +2669,4 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
